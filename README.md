@@ -1,0 +1,2 @@
+# ganeshnginx
+podserviceyaml
