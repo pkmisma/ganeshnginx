@@ -18,7 +18,8 @@ kind: Service
 metadata:
   name: nginxservice2
 spec:
-  ports:
-      port: 80
   selector:
-    app: ganengnix
+    app: web
+  ports:
+    - protocol: TCP
+      port: 80
